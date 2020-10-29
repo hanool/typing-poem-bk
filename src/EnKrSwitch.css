@@ -1,0 +1,39 @@
+.en-kr-switch {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.en-kr-switch input {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.en-kr-switch label {
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+.en-kr-switch input:checked + label {
+  background-color: #333;
+  color: #fff;
+}
+
+.en-kr-switch #radio-label-en {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.en-kr-switch #radio-label-kr {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  border-radius: 0px 5px 5px 0px;
+}
