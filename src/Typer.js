@@ -8,6 +8,7 @@ class Typer extends Component {
     this.state = {
       placeholderText: this.props.typerText,
       overlapText: '',
+      typingStarted: false,
     };
   }
 
@@ -24,6 +25,12 @@ class Typer extends Component {
   };
 
   handleTyperInputChange = (e) => {
+    if (!this.state.typingStarted) {
+      this.props.onTypingStart();
+      this.setState({
+        typingStarted: true,
+      });
+    }
     const inputText = e.target.value;
     if (inputText.length > this.props.typerText.length) {
       this.props.onTypingComplete();

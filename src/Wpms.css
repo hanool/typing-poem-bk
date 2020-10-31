@@ -1,0 +1,17 @@
+.wpm-list {
+  position: absolute;
+  top: 140px;
+  height: 100px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  overflow: auto;
+  padding: 0px;
+  margin: 0px;
+}
+
+.wpm {
+  padding: 0px;
+  margin: 0px;
+}
