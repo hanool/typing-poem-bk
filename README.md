@@ -2,7 +2,10 @@ This project was inspired by [Typing.works](https://typing.works).
 
 ## Main Feature
 
-The main feature of this app is typing.
+- typing poems
+- calculate wpm(words-per-minute) and display it
+- simple UI
+- tested
 
 Available on [My Github Page](https://hanool.github.io)
 
