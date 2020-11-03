@@ -37,7 +37,7 @@
   font-family: 'Ubuntu Mono', 'Nanum Myeongjo', monospace;
   border: none;
   border-bottom: 1px solid;
-  background-color: #eee;
+  /* background-color: #eee; */
   color: rgba(0, 0, 0, 0);
   caret-color: grey;
 }
