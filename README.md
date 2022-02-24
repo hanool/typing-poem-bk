@@ -7,7 +7,7 @@ This project was inspired by [Typing.works](https://typing.works).
 - simple UI
 - tested
 
-Available on [My Github Page](https://hanool.github.io)
+~~Available on [My Github Page](https://hanool.github.io)~~
 
 ### Contents
 
